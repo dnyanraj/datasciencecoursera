@@ -5,7 +5,7 @@ This repo contains [<code>run_analysis.R</code>](https://github.com/dnyanraj/dat
 - Sync the repo
 - Download the Human Activity Recognition dataset into R Working Directory and unzip it
 - Source and run <code>run_analysis.R</code>
-- <code>rtidy.txt</code> will be generated in R Working Directory
+- <code>tidy.txt</code> will be generated in R Working Directory
 
 ##File Structure
 - UCI HAR Dataset folder should contain <code>test</code> and <code>train</code> folders
