@@ -1,4 +1,4 @@
-#Find hospital in a state that has the best (i.e. lowest) 30-day mortality for the specifed outcome in that state.
+#Find hospital in a state that has the user defined rank, based on 30-day mortality for the specifed outcome in that state.
 #Takes 3 arguments: the 2-character abbreviated name of a state (state), an outcome (outcome), and the ranking of a hospital in that state for that outcome (num).
 #This function uses stop() function from R Base package for error handling and aborts function execution on error(s).
 
