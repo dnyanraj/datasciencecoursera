@@ -42,7 +42,7 @@ rankall <- function(outcome, num = "best") {
         #lapply rankHospital function to stateFactorData to get Hospital Name for "num" rank for EACH factor (state)
         stagingVector <- lapply(stateFactorData, rankHospital, num)
         
-        #Return a final data frame by "unlist"ing converting "state" factors to row elements for Hosptial Names from stagingVector
+        #Return a final data frame by "unlist"ing (converting) "state" factors to row elements for Hosptial Names from stagingVector
         #unlist() function flattens a vector to produce a vector containing all atomic components which occur in x
         data.frame(hospital = unlist(stagingVector), state = names(stagingVector), row.names = names(stagingVector))
 }
