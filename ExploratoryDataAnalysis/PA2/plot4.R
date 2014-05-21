@@ -27,7 +27,7 @@ png(file="plot4.png")
 
 #Plot the year over year total emission by type using ggplot2
 p <- ggplot(x1, aes(year, Emissions))
-p <- p+geom_point()+labs(title="Total PM2.5 Emission Over Years for Coal Combustion-related Sources in United States", x = "Year", y = "Emission in Tons")
+p <- p+geom_point()+labs(title="Total PM2.5 Emission Over Years \nfor Coal Combustion-related Sources in United States", x = "Year", y = "Emission in Tons")
 p <- p+geom_line()
 print(p)
 
